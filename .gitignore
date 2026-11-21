@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Resposta da API em JSON (o mesmo conteúdo fica em data/raw/*.csv)
+data/raw/*.json
+
+# Saídas do simulador (python src/simular.py)
+data/processed/*simulado*.csv
+img/simulado/
